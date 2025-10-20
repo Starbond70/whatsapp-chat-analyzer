@@ -1,12 +1,5 @@
 # whatsapp-chat-analyzer
 
-A small Streamlit app to analyze WhatsApp exported chat files. It computes message statistics, timelines, activity maps, word clouds, emoji counts and more.
-
-## What I added
-- Top-level `.gitignore` to ignore common Python artifacts and IDE files.
-- `requirements.txt` listing the project's Python dependencies.
-- This expanded `README.md` with setup and run instructions.
-
 ## Project structure
 - `app.py` — Streamlit application (do not modify unless needed)
 - `preprocessor.py` — chat parsing and preprocessing (do not modify)
@@ -38,12 +31,3 @@ After installing dependencies, run the Streamlit app:
 ```powershell
 streamlit run app.py
 ```
-
-Then open the URL shown by Streamlit (usually http://localhost:8501).
-
-## Notes
-- I did not modify `app.py`, `preprocessor.py`, or `helper.py` as requested.
-- The `requirements.txt` includes the packages observed from imports in the code. If you use additional packages, add them to the file and run `pip install -r requirements.txt` again.
-
-## License & Author
-Your repository — add license details here if desired.
